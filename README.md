@@ -25,6 +25,13 @@ Start the development server on http://localhost:3000
 npm run dev
 ```
 
+Local build 
+
+```bash
+NITRO_PRESET=cloudflare npm run build
+npx miniflare .output/server/index.mjs --site .output/public
+```
+
 ## Production
 
 Build the application for production:
